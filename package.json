@@ -1,0 +1,14 @@
+{
+    "name": "ioX",
+    "description": "A minimalist framework for writing scripts that convert gamepad input to keyboard/mouse output.",
+    "version": "1.0.0",
+    "scripts": {
+        "lint": "npx tsc -p ./",
+        "build": "npx node-gyp configure; npx node-gyp build",
+        "rebuild-verbose": "npx node-gyp rebuild --verbose"
+    },
+    "devDependencies": {
+        "node-gyp": "9.0.0",
+        "typescript": "4.6.3"
+    }
+}
